@@ -33,6 +33,12 @@ body {
     max-width: 500px;
   } 
 
+  .h1 {
+  font-size: medium;  
+  text-align: center;
+  color: #2D488A;
+}
+
   .gallery1 {
     background-image: url("img/image1.jpeg");
   }
