@@ -111,7 +111,7 @@
     transition: all .5s;
   }
   nav ul li a:hover a:focus{
-    color: rgb(0, 0, 0);
+    color: rgb(219, 2, 2);
   }
   
 /*SERVICES PAGE*/
