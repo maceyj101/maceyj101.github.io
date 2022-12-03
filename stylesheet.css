@@ -19,7 +19,7 @@ body {
   }
 
   .containerTestimonials {
-    display: flex;
+    display: inline;
   }
 
   .containerGallery {
