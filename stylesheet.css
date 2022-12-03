@@ -85,8 +85,8 @@ body {
 
   .testimonial {
     background-color: lightgrey;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: fill;
     text-align: center;
     padding-top: 25px;
     box-sizing: border-box;
