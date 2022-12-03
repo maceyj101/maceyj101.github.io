@@ -32,7 +32,7 @@ body {
   color: #2D488A;
 }
 .contactPlug {
-  justify-self: baseline;
+  justify-content: baseline;
   width: 20vw;
   height: 45px;
   background-color: rgb(27, 132, 202);
