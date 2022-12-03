@@ -31,8 +31,16 @@ body {
     flex-grow: 1;
     width: auto;
     height: 100px;
-
   } 
+  .gallery1 {
+    background-image: url("img/image1.jpeg");
+  }
+  .gallery2 {
+    background-image: url("img/image2.jpeg");
+  }
+  .gallery3 {
+    background-image: url("img/image3.jpeg");
+  }
   /* NAVBAR */
 nav {
   width: 80%;
