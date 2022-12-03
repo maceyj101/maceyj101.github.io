@@ -195,13 +195,13 @@ align-content: center;
 }
 
 
-h3 {
+.h3 {
   font-family: 'Merriweather', serif;
   line-height: 30px;
   text-align: center;
 }
 
-h4 {
+.h4 {
   font-family: 'Merriweather', serif;
   text-align: justify;
   text-indent: 2em;
