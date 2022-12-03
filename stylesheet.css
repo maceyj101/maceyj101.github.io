@@ -4,11 +4,14 @@ body {
     background-color: rgb(255, 255, 255);
   }
 
-
+  .header {
+    font-size: 5rem;
+    font-weight: bold;
+  }
 
   .grid-layout {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
+  grid-template-columns: 1fr 8fr 1fr;
     grid-template-rows: 3fr 8fr 1fr;
     height: 100vh;
   }
@@ -67,19 +70,7 @@ body {
     background-image: url("img/image12.jpeg");
   }
  
-  .review1 {
-    grid-column: 2/3;
-    grid-row:2/3;
-
-  }
-  .review2 {
-    grid-column: 2/3;
-    
-  }
-  .review3 {
-    grid-column: 2/3;
-    
-  }
+ 
   /* NAVBAR */
   nav {
     width: 80%;
@@ -110,11 +101,14 @@ body {
   nav ul li a:before {
     transition: all .5s;
   }
-  nav ul li a:hover a:focus {
+  nav ul li a:hover {
     color: rgb(85, 85, 85);
   }
   
 
+@media screen and (min-width: 768px) {
+    
+}
 /*CONTACT US FORM*/
 
 /*header*/
@@ -128,7 +122,6 @@ body {
   font-size: 18px; 
   font: Tahoma, Geneva, sans-serif;
   font-weight: bold; 
- 
 }
 
 .contactheaderbody {
@@ -142,8 +135,8 @@ body {
 /*form*/
 .contactformheader {
   width: 100%;
-  cellspacing: 1;
-  cellpadding: 5;
+  border-spacing: 1;
+  padding: 5;
   text-align: center; 
 }
 #contactformtitle {
@@ -152,7 +145,7 @@ body {
 }
 .contactformtable {
   width: 90%;
-  cellspacing: 1;  
+  border-spacing: 1;  
   font-size: 12pt;
   text-align: left; 
 
