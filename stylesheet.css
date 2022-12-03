@@ -11,6 +11,23 @@ body {
     height: 100vh;
   }
 
+  .containerGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    min-width: auto;
+    height: 100vh;
+  }
+
+  .item {
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+    width: auto;
+    height: 100px;
+
+  } 
   /* NAVBAR */
 nav {
   width: 80%;
@@ -27,4 +44,5 @@ nav {
 @media screen and (min-width: 768px) {
     
 }
+ }
 /*CONTACT US PAGE*/
