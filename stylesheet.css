@@ -137,44 +137,44 @@ body {
 }
 /*header*/
 #contactall {
-  padding: 16px;
-  box-shadow: 2px 2px 8px;
-  width: 50%;
-  margin: auto; 
-  background-color: #A0AED0; 
+padding: 16px;
+box-shadow: 2px 2px 8px;
+width: 50%;
+margin: auto; 
+background-color: #A0AED0; 
 }
 .contactheadername {
-  text-align: center;
-  color: #2D488A;
-  font-size: 18px; 
-  font: Tahoma, Geneva, sans-serif;
-  font-weight: bold; 
+text-align: center;
+color: #2D488A;
+font-size: 18px; 
+font: Tahoma, Geneva, sans-serif;
+font-weight: bold; 
 }
 
 .contactheaderbody {
-  text-align: center;
-  color: #6D6F71;
-  font-size: 18px; 
-  font: Tahoma, Geneva, sans-serif; 
-  font-weight: bold;
+text-align: center;
+color: #6D6F71;
+font-size: 18px; 
+font: Tahoma, Geneva, sans-serif; 
+font-weight: bold;
 }
 
 /*form*/
 .contactformheader {
-  width: 100%;
-  border-spacing: 1;
-  padding: 5;
-  text-align: center; 
+width: 100%;
+border-spacing: 1;
+padding: 5;
+text-align: center; 
 }
 #contactformtitle {
-  font-size: 14pt;
-  font-weight: bold; 
+font-size: 14pt;
+font-weight: bold; 
 }
 .contactformtable {
-  width: 90%;
+width: 90%;
   border-spacing: 1;  
-  font-size: 12pt;
-  text-align: left; 
+font-size: 12pt;
+text-align: left;
 
 }
 
@@ -308,3 +308,4 @@ h4 {
   align-self: auto;
   order: 0;
 }
+>>>>>>> e0467acf7dda2a107601d10ead5a5b8ccfe981e4
