@@ -116,7 +116,9 @@
   
 /*SERVICES PAGE*/
 .servicesflex {
-  align: center; 
+  align: center;
+  flex-wrap: wrap;
+  
 }
 
 #servicestitle {
