@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Merriweather', serif;
     font-size: 2rem;
     background-color: rgb(255, 255, 255);
   }
@@ -176,4 +176,135 @@ body {
   font-size: 12pt;
   text-align: left; 
 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Merriweather:wght@300&display=swap');
+
+
+
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  letter-spacing: 8px;
+  font-size: 37px;
+  color: #A0AED0;
+ text-align: center;
+}
+
+
+h3 {
+  font-family: 'Merriweather', serif;
+  line-height: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width: 50%;
+  
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(4) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(5) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.housecover {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+ padding-left: 55%;
+}
+
+.footer {
+  background-color: #A0AED0;
+}
+
+.porch {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 150px;
+  height: 150px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+}
+
+.flex-items1:nth-child(1) {
+  display: inline-block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items1:nth-child(2) {
+  display: inline-block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
