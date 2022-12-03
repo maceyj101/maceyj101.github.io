@@ -21,8 +21,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-    min-width: auto;
-    height: 100vh;
   }
 
   .item {
@@ -30,7 +28,9 @@ body {
     background-position: center;
     background-size: cover;
     flex-grow: 1;
-    height: 100px;
+    height: 180px;
+    min-width: 300px;
+    max-width: 500px;
   } 
 
   .gallery1 {
