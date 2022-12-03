@@ -93,9 +93,10 @@ body {
   }
   /* NAVBAR */
   nav {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     background: #fff;
+    padding: 20px 0;
     box-shadow: 0px 5px 0px #dedede;
     background-color: rgb(255, 255, 255);
     font-size: 20px;
@@ -124,12 +125,8 @@ body {
   nav ul li a:hover a:focus{
     color: rgb(85, 85, 85);
   }
-  @media only screen and (max-width: 786px) {
-    nav ul li {
-      padding: 20px 0;
-      width: 80%
-    }
   
+
 /*CONTACT US FORM*/
 .contactflex {
   display: flex;
