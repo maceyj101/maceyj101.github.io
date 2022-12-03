@@ -1,9 +1,3 @@
-
-  .header {
-    font-size: 5rem;
-    font-weight: bold;
-  }
-
   .containerGallery {
     display: flex;
     flex-wrap: wrap;
