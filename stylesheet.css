@@ -110,7 +110,7 @@
   nav ul li a:before {
     transition: all .5s;
   }
-  nav ul li a:hover{
+  nav ul li a:hover a:focus{
     color: rgb(85, 85, 85);
   }
   
