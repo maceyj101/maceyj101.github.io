@@ -82,7 +82,7 @@ body {
     height: fit-content;
     max-width: 1000px;
     text-align: center;
-    padding-top: 25px;
+    padding: 5px;
     box-sizing: border-box;
     margin: 1%;
   }
