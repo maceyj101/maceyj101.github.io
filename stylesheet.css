@@ -134,9 +134,10 @@ body {
 /*header*/
 #contactall {
   padding: 16px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 8px;
   width: 50%;
   margin: auto; 
+  background-color: #A0AED0; 
 }
 .contactheadername {
   text-align: center;
