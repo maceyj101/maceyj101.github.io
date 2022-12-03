@@ -31,21 +31,6 @@ body {
   text-align: center;
   color: #2D488A;
 }
-.contactPlug {
-  justify-items: baseline;
-  width: 20vw;
-  height: 45px;
-  background-color: rgb(27, 132, 202);
-  color: black;
-  font-size: 26px;
-  text-align: center;
-  font-family: "Nunito Sans";
-  border-radius: 6px;
-  transition: all 350ms;
-}
-.contactPlug:hover {
-  background-color: rgb(165, 19, 24);
-}
 
   .gallery1 {
     background-image: url("img/image1.jpeg");
