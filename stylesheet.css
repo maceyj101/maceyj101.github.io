@@ -118,6 +118,10 @@
   }
   
 /*SERVICES PAGE*/
+.servicestext {
+  text-align: center; 
+}
+
 .servicesflex {
   align-items: center;
   flex-wrap: wrap;
