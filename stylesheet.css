@@ -1,163 +1,146 @@
-  .containerGallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-  }
-
-  .itemGallery {
-    flex-wrap: wrap;
-    background-position: center;
-    background-size: cover;
-    flex-grow: 1;
-    height: 230px;
-    min-width: 300px;
-    max-width: 500px;
-  } 
-
-  .galleryText {
-  font-size: 30px;  
-  text-align: center;
-  color: #2D488A;
-}
-
-  .gallery1 {
-    background-image: url("img/image1.jpeg");
-  }
-  .gallery2 {
-    background-image: url("img/image2.jpeg");
-  }
-  .gallery3 {
-    background-image: url("img/image3.jpeg");
-  }
-  .gallery4 {
-    background-image: url("img/image4.jpeg");
-  }
-  .gallery5 {
-    background-image: url("img/image5.jpeg");
-  }
-  .gallery6 {
-    background-image: url("img/image6.jpeg");
-  }
-  .gallery7 {
-    background-image: url("img/image7.jpeg");
-  }
-  .gallery8 {
-    background-image: url("img/image8.jpeg");
-  }
-  .gallery9 {
-    background-image: url("img/image9.jpeg");
-  }
-  .gallery10 {
-    background-image: url("img/image10.jpeg");
-  }
-  .gallery11 {
-    background-image: url("img/image11.jpeg");
-  }
-  .gallery12 {
-    background-image: url("img/image12.jpeg");
-  }
-  .testHead {
-    font-size: 30px;  
-    text-align: center;
-    color: #2D488A;  }
-
-    
-  .containerTestimonials {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    padding: 3rem;
-  }
-
-  .testimonial {
-    background-color: lightgrey;
-    font-size: 18px;
-    height: fit-content;
-    text-align: center;
-    padding: 5px;
-    box-sizing: border-box;
-    margin: 1%;
-  }
-  /* NAVBAR */
-  nav {
-    width: 80%;
-    margin: 0 auto;
-    background: #fff;
-    padding: 20px 0;
-    box-shadow: 0px 5px 0px #6D6F71;
-    background-color: rgb(255, 255, 255);
-    font-size: 20px;
-  }
-  nav ul {
-    list-style: none;
-    text-align: center;
-  }
-  nav ul li {
-    display: inline-block;
-  }
-  nav ul li a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: #6D6F71;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin: 0 10px;
-  }
-  nav ul li a,
-  nav ul li a:after,
-  nav ul li a:before {
-    transition: all .5s;
-  }
-  nav ul li a:hover{
-    color: rgb(0, 0, 0);
-  }
-  nav ul li a:focus{
-    color: rgb(0, 0, 0);
-  }
-  
-/*SERVICES PAGE*/
-.servicestext {
-  text-align: center; 
-}
-
-.servicesflex {
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-#servicestitle {
-  color: #2D488A;
-  font-size: 25px; 
-}
-
-#serviceslist {
-  font-size: 20px;
-  text-align: left; 
-  padding-left: 5%; 
-}
-
-.servicesimage {
-  align: right; 
-  border-width: 0pt; 
-  border-style: solid;
-  width: 50%;
-  height: auto; 
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto; 
-}
-
-/*CONTACT US FORM*/
-.contactflex {
+.containerGallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  flex-direction: columns;
 }
+
+.itemGallery {
+  flex-wrap: wrap;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+  height: 230px;
+  min-width: 300px;
+  max-width: 500px;
+} 
+
+.galleryText {
+font-size: 30px;  
+text-align: center;
+color: #2D488A;
+}
+
+.gallery1 {
+  background-image: url("img/image1.jpeg");
+}
+.gallery2 {
+  background-image: url("img/image2.jpeg");
+}
+.gallery3 {
+  background-image: url("img/image3.jpeg");
+}
+.gallery4 {
+  background-image: url("img/image4.jpeg");
+}
+.gallery5 {
+  background-image: url("img/image5.jpeg");
+}
+.gallery6 {
+  background-image: url("img/image6.jpeg");
+}
+.gallery7 {
+  background-image: url("img/image7.jpeg");
+}
+.gallery8 {
+  background-image: url("img/image8.jpeg");
+}
+.gallery9 {
+  background-image: url("img/image9.jpeg");
+}
+.gallery10 {
+  background-image: url("img/image10.jpeg");
+}
+.gallery11 {
+  background-image: url("img/image11.jpeg");
+}
+.gallery12 {
+  background-image: url("img/image12.jpeg");
+}
+.testHead {
+  font-size: 30px;  
+  text-align: center;
+  color: #2D488A;  }
+
+  
+.containerTestimonials {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.testimonial {
+  background-color: lightgrey;
+  font-size: 18px;
+  height: fit-content;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 1%;
+}
+/* NAVBAR */
+nav {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 0;
+  box-shadow: 0px 5px 0px #6D6F71;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #6D6F71;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover{
+  color: rgb(0, 0, 0);
+}
+nav ul li a:focus{
+  color: rgb(0, 0, 0);
+}
+
+/*SERVICES PAGE*/
+.servicestext {
+text-align: center;
+list-style-position: inside;
+
+}
+
+.servicesflex {
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.servicesimage {
+box-align: right; 
+border-width: 0pt; 
+border-style: solid;
+width: 50%;
+height: auto; 
+display: block; 
+margin-left: auto; 
+margin-right: auto; 
+}
+
+/*CONTACT US FORM*/
 
 #contactall {
 padding: 15px;
@@ -194,8 +177,8 @@ font-size: 14pt;
 font-weight: bold; 
 }
 #contactformdescription {
-  font-size: 15pt;
-  font-weight: bold; 
+font-size: 15pt;
+font-weight: bold; 
 }
 .contactformtable {
 width: 90%; 
@@ -215,104 +198,104 @@ align-content: center;
 
 
 h1 {
-  font-family: 'Merriweather Sans', sans-serif;
-  letter-spacing: 8px;
-  font-size: 37px;
-  color: #5B74AE;
-  text-align: center;
+font-family: 'Merriweather Sans', sans-serif;
+letter-spacing: 8px;
+font-size: 37px;
+color: #5B74AE;
+text-align: center;
 }
 
 
 h3 {
-  font-family: 'Merriweather', serif;
-  line-height: 30px;
-  text-align: center;
-  font-size: smaller;
+font-family: 'Merriweather', serif;
+line-height: 30px;
+text-align: center;
+font-size: smaller;
 }
 
 h4 {
-  font-family: 'Merriweather', serif;
-  text-align: justify;
-  text-indent: 2em;
+font-family: 'Merriweather', serif;
+text-align: justify;
+text-indent: 2em;
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: normal;
-  align-items: normal;
-  align-content: normal;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: normal;
+align-items: normal;
+align-content: normal;
 }
 
 .flex-items:nth-child(1) {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-  width: 50%;
-  
+display: block;
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+align-self: auto;
+order: 0;
+width: 50%;
+
 }
 
 .flex-items:nth-child(2) {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
+display: block;
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+align-self: auto;
+order: 0;
 }
 
 .flex-items:nth-child(3) {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
+display: block;
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+align-self: auto;
+order: 0;
 }
 
 .flex-items:nth-child(4) {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-  align-items: center; 
+display: block;
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+align-self: auto;
+order: 0;
+align-items: center; 
 }
 
 .flex-items:nth-child(5) {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
+display: block;
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+align-self: auto;
+order: 0;
 }
 
 .housecover {
-  margin-top: 20px;
-  width: 100%;
-  height: auto;
+margin-top: 20px;
+width: 100%;
+height: auto;
 }
 
 .logo {
-  width: 100%;
-  height: auto;
-  padding-left: 55%;
+width: 100%;
+height: auto;
+padding-left: 55%;
 }
 
 .footer {
-  background-color: #5B74AE;
+background-color: #5B74AE;
 
 }
 
 .porch {
-  float: left;
-  margin: 0 20px 20px 0;
-  width: 150px;
-  height: 150px;
+float: left;
+margin: 0 20px 20px 0;
+width: 150px;
+height: 150px;
 }
