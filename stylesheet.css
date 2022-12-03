@@ -76,7 +76,10 @@ body {
     background-image: url("img/image12.jpeg");
   }
  
- 
+  .containerTestimonials {
+    display: block;
+
+  }
   /* NAVBAR */
   nav {
     width: 80%;
