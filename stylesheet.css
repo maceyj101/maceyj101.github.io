@@ -116,15 +116,24 @@
   
 /*SERVICES PAGE*/
 .servicesflex {
-
+  align: center; 
 }
 
 #servicestitle {
-
+  color: red;
+  font-size: 30px; 
 }
 
 #serviceslist {
+  font-size: 20px;
+  text-align: left; 
+  padding-left: 5%; 
+}
 
+.servicesimage {
+  align: right; 
+  border-width: 0pt; 
+  border-style: solid; 
 }
 
 /*CONTACT US FORM*/
