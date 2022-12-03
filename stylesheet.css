@@ -18,6 +18,10 @@ body {
     height: 100vh;
   }
 
+  .containerTestimonials {
+    display: flex;
+  }
+
   .containerGallery {
     display: flex;
     flex-wrap: wrap;
