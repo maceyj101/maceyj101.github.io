@@ -78,7 +78,19 @@ body {
  
   .containerTestimonials {
     display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+  }
 
+  .testimonial {
+    background-color: lightgrey;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    margin: 1%;
   }
   /* NAVBAR */
   nav {
