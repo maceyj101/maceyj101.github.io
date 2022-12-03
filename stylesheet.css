@@ -139,7 +139,7 @@ body {
 #contactall {
 padding: 16px;
 box-shadow: 2px 2px 8px;
-width: 50%;
+width: 100%;
 margin: auto; 
 background-color: #A0AED0; 
 }
@@ -175,7 +175,6 @@ width: 90%;
   border-spacing: 1;  
 font-size: 12pt;
 text-align: left;
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Merriweather:wght@300&display=swap');
