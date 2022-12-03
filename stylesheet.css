@@ -123,6 +123,7 @@ body {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 .contactheadername {
+  grid-row: 3/4;
   text-align: center;
   color: #2D488A;
   font-size: 18px; 
