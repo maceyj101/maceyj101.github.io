@@ -97,6 +97,7 @@ nav {
   color: #2D488A;
   font-size: 18px; 
   font: Tahoma, Geneva, sans-serif;
+  font-weight: bold; 
   
 }
 
@@ -105,5 +106,6 @@ nav {
   color: #6D6F71;
   font-size: 18px; 
   font: Tahoma, Geneva, sans-serif; 
+  font-weight: bold; 
 }
 /*header end*/
