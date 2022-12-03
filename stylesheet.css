@@ -135,9 +135,9 @@ body {
   align-items: stretch;
   flex-direction: columns;
 }
-/*header*/
+
 #contactall {
-padding: 16px;
+padding: 15px;
 box-shadow: 2px 2px 8px;
 width: 100%;
 margin: auto; 
@@ -171,12 +171,17 @@ font-size: 14pt;
 font-weight: bold; 
 }
 .contactformtable {
-width: 90%;
-  border-spacing: 1;  
+width: 90%; 
 font-size: 12pt;
-text-align: left;
+text-align: center;
+padding-left: 5%; 
 }
-
+#contactformbackground {
+background-color: red; 
+}
+#contactsubmit {
+align-content: center;
+}
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Merriweather:wght@300&display=swap');
 
 
