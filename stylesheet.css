@@ -26,12 +26,14 @@ body {
   }
 
   .item {
+    flex-wrap: wrap;
     background-position: center;
     background-size: cover;
     flex-grow: 1;
-    width: auto;
     height: 100px;
+    width: 1fr;
   } 
+
   .gallery1 {
     background-image: url("img/image1.jpeg");
   }
