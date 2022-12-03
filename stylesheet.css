@@ -293,9 +293,7 @@ background-color: #5B74AE;
 
 }
 
-.porch {
-float: left;
-margin: 0 20px 20px 0;
-width: 150px;
-height: 150px;
+.dock {
+  max-width: fit-content;
+  height: auto;
 }
