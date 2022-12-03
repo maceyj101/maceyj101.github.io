@@ -110,8 +110,8 @@
   nav ul li a:before {
     transition: all .5s;
   }
-  nav ul li a:hover a:focus{
-    color: rgb(219, 2, 2);
+  nav ul li a:hover{
+    color: rgb(130, 36, 36);
   }
   
 /*SERVICES PAGE*/
