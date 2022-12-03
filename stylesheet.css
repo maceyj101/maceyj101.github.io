@@ -118,13 +118,17 @@ body {
 /*CONTACT US FORM*/
 
 /*header*/
+#contactall {
+  padding: 16px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
 .contactheadername {
   text-align: center;
   color: #2D488A;
   font-size: 18px; 
   font: Tahoma, Geneva, sans-serif;
   font-weight: bold; 
-  
+ 
 }
 
 .contactheaderbody {
@@ -132,6 +136,24 @@ body {
   color: #6D6F71;
   font-size: 18px; 
   font: Tahoma, Geneva, sans-serif; 
+  font-weight: bold;
+}
+
+/*form*/
+.contactformheader {
+  width: 100%;
+  cellspacing: 1;
+  cellpadding: 5;
+  text-align: center; 
+}
+#contactformtitle {
+  font-size: 14pt;
   font-weight: bold; 
 }
-/*header end*/
+.contactformtable {
+  width: 90%;
+  cellspacing: 1;  
+  font-size: 12pt;
+  text-align: left; 
+
+}
