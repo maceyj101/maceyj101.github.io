@@ -114,6 +114,18 @@
     color: rgb(85, 85, 85);
   }
   
+/*SERVICES PAGE*/
+.servicesflex {
+
+}
+
+#servicestitle {
+
+}
+
+#serviceslist {
+
+}
 
 /*CONTACT US FORM*/
 .contactflex {
@@ -246,6 +258,7 @@ h4 {
   flex-basis: auto;
   align-self: auto;
   order: 0;
+  align-items: center; 
 }
 
 .flex-items:nth-child(5) {
@@ -266,7 +279,7 @@ h4 {
 .logo {
   width: 100%;
   height: auto;
- padding-left: 55%;
+  padding-left: 55%;
 }
 
 .footer {
