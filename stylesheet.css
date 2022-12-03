@@ -41,6 +41,37 @@ body {
   .gallery3 {
     background-image: url("img/image3.jpeg");
   }
+  .gallery4 {
+    background-image: url("img/image4.jpeg");
+  }
+  .gallery5 {
+    background-image: url("img/image5.jpeg");
+  }
+  .gallery6 {
+    background-image: url("img/image6.jpeg");
+  }
+  .gallery7 {
+    background-image: url("img/image7.jpeg");
+  }
+  .gallery8 {
+    background-image: url("img/image8.jpeg");
+  }
+  .gallery9 {
+    background-image: url("img/image9.jpeg");
+  }
+  .gallery10 {
+    background-image: url("img/image10.jpeg");
+  }
+  .gallery11 {
+    background-image: url("img/image11.jpeg");
+  }
+  .gallery12 {
+    background-image: url("img/image12.jpeg");
+  }
+  .gallery13 {
+    background-image: url("img/image13.jpeg");
+  }
+ 
   /* NAVBAR */
 nav {
   width: 80%;
