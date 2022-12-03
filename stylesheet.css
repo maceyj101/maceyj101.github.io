@@ -7,6 +7,8 @@ body {
   .header {
     font-size: 5rem;
     font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
   }
 
   .grid-layout {
@@ -106,9 +108,6 @@ body {
   }
   
 
-@media screen and (min-width: 768px) {
-    
-}
 /*CONTACT US FORM*/
 
 /*header*/
